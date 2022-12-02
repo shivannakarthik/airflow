@@ -43,7 +43,7 @@ from distutils import log  # isort: skip
 # Controls whether providers are installed from packages or directly from sources
 # It is turned on by default in case of development environments such as Breeze
 # And it is particularly useful when you add a new provider and there is no
-# PyPI version to install the provider package from
+# PyPI version to install the provider package from.
 INSTALL_PROVIDERS_FROM_SOURCES = "INSTALL_PROVIDERS_FROM_SOURCES"
 PY39 = sys.version_info >= (3, 9)
 
